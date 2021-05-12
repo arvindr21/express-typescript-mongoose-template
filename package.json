@@ -1,0 +1,26 @@
+{
+    "name": "node-apis-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node ./src/server.ts",
+        "start": "nodemon ./dist/server.js",
+        "prod": "npm run build && npm run start"
+    },
+    "keywords": [],
+    "author": "Arvind Ravulavaru <arvind.ravulavaru@gmail.com> (http://thejackalofjavascript.com)",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.8",
+        "nodemon": "^2.0.7"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.11",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    }
+}
